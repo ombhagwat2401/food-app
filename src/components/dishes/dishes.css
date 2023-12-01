@@ -62,3 +62,10 @@
         background-color: hsl(200, 20%, 95%);
     }
 }
+
+@media (max-width: 500px){
+    .food_app__dishes{
+        width: 80%;
+        margin: auto;
+    }
+}
