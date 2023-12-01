@@ -1,0 +1,74 @@
+.food_app__categories{
+    margin-top: 50px;
+}
+
+.food_app__categories h2{
+    margin: 0;
+}
+
+
+
+.food_app__categories_container{
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    width: 90%;
+    margin: auto;
+}
+
+.food_app__categories_container .banner_container{
+    text-align: center;
+    margin-right: 50px;
+}
+.food_app__categories_container .banner{
+    height: 80px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.flexi{
+    display: flex;
+}
+.food_app__categories .control_btn button{
+    border-radius: 50px;
+    color: #000;
+    background-color: #f2f2f2;
+    border: none;
+    padding: 5px 14px;
+    
+  
+    
+}
+
+.food_app__categories .control_btn{
+    margin-top: 40px;
+}
+
+
+.banner_container_loading{
+    margin-right: 50px;
+    text-align: center;
+}
+.banner_container_loading .banner{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    animation: loading 1s linear infinite alternate;
+    
+}
+
+.banner_container_loading p{
+    margin-top: 5px;
+    border-radius: 5px;
+    animation: loading 1s linear infinite alternate;
+}
+
+@keyframes loading{
+    0%{
+        background-color: hsl(200, 20%, 85%);
+    }
+
+    100%{
+        background-color: hsl(200, 20%, 95%);
+    }
+}

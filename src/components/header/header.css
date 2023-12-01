@@ -1,0 +1,63 @@
+.food_app__header{
+    margin-top: 50px;
+}
+
+.food_app__header h2{
+    margin: 0;
+}
+
+
+.food_app__header_container{
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    margin-top: 10px;
+}
+
+
+.food_app__header_container .banner{
+    height: 200px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.food_app__header .left-btn{
+    margin-top: 80px;
+    margin-right: -55px;
+    z-index: 99;
+}
+
+.food_app__header .right-btn{
+    margin-top: 80px;
+    margin-left: -55px;
+    z-index: 99;
+}
+.food_app__header .control_btn button{
+    border-radius: 50%;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 2px solid rgba(0, 0, 0, 0.15);
+    padding: 5px 20px;
+    font-size: 25px;
+  
+    
+}
+
+
+.food_app__header .banner_container_loading .banner{
+    height: 200px;
+    width: 380px;
+    margin-right: -20px;
+    border-radius: 20px;
+    animation: loading 1s linear infinite alternate;
+}
+
+@keyframes loading{
+    0%{
+        background-color: hsl(200, 20%, 85%);
+    }
+
+    100%{
+        background-color: hsl(200, 20%, 95%);
+    }
+}
